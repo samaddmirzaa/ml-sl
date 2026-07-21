@@ -16,7 +16,7 @@ X_raw = df.drop(columns='species')
 X_raw
 
 st.write('**y**')
-y = df.species
+y_raw = df.species
 y_raw
 
 with st.expander('Data Visualisation'):
