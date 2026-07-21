@@ -94,4 +94,3 @@ st.success(str(penguins_species[prediction][0]))
 
 
 
-
