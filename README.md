@@ -10,7 +10,7 @@ physical measurements. Built with Random Forest and deployed with Streamlit.
 ## What it does
 
 The app takes physical measurements of a penguin as input and predicts whether 
-it is an Adelie, Chinstrap, or Gentoo penguin — along with the probability of 
+it is an Adelie, Chinstrap, or Gentoo penguin along with the probability of 
 each species.
 
 ## Input Features
@@ -46,8 +46,5 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## Dataset
-
-[Palmer Penguins Dataset](https://github.com/dataprofessor/data/blob/master/penguins_cleaned.csv)
 — a popular alternative to the Iris dataset for classification tasks, containing 
 measurements of three penguin species across three Antarctic islands.
