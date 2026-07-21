@@ -46,6 +46,7 @@ input_penguins = pd.concat([input_df, X_raw], axis=0)
 
 # Encode X
 df_penguins = pd.get_dummies(input_penguins, prefix=['island', 'sex'])
+X = df_penguins[1:]
 input_row = df_penguins[:1]
 
 # Encode y
